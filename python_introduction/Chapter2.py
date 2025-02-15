@@ -53,7 +53,7 @@ x = 42
 print ((math.cos(x)**2 + math.sin(x)**2))
 
 #let’s compute e**2 three ways:
-
 print (math.e**2)
 print (math.pow (math.e , 2))
 print (math.exp(2))
+
