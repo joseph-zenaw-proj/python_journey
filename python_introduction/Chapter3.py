@@ -48,6 +48,16 @@ def print_verse():
     first_two_lines()
     last_three_lines()
 
-print_verse()
 
 #Repetition
+
+
+def print_n_verses(n):
+    for i in range(n):
+        print_verse()
+        print()
+
+n = 3
+print_n_verses(n)
+
+#Variables and parameters are local
