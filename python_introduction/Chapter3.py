@@ -61,3 +61,17 @@ n = 3
 print_n_verses(n)
 
 #Variables and parameters are local
+def print_twice(text):
+    print(text)
+    print(text)
+
+def new_func(m, n):
+    add = m + n
+    print_twice(add)
+
+new_func(5, 4)
+
+#Parameters of the Python print function
+print('the user name is joseph','zenaw' , sep="_" )
+
+#Tracebacks
