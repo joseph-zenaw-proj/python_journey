@@ -75,3 +75,5 @@ new_func(5, 4)
 print('the user name is joseph','zenaw' , sep="_" )
 
 #Tracebacks
+#A traceback in Python is an error report that shows where an exception occurred in your code.
+
