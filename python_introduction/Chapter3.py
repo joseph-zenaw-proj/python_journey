@@ -77,3 +77,38 @@ print('the user name is joseph','zenaw' , sep="_" )
 #Tracebacks
 #A traceback in Python is an error report that shows where an exception occurred in your code.
 
+#Exercise 
+#Write a function named print_right that takes a string named text as a parameter and prints the string with enough leading spaces that the last letter of the string is in the 40th column of the display
+def print_right(text):
+    spaces = 40 - len(text)
+    print(" " * spaces + text)
+
+print_right('Hello')
+
+#Write a function called triangle that takes a string and an integer and draws a pyramid with the given height, made up using copies of the string.
+
+def triangle(string , height):
+     for i in range(1, height + 1):
+        print(string * i)
+
+triangle("O" , 5)
+print()
+#Write a function called rectangle that takes a string and two integers and draws a rectangle with the given height and width, made up using copies of the string.
+def rectangle(string , w , h):
+    for i in range(1,  h + 1):
+        print(string * w)
+    
+rectangle("O" , 4 , 5)
+print()
+# The song “99 Bottles of Beer” starts with this verse:
+# 99 bottles of beer on the wall
+# 99 bottles of beer
+# Take one down, pass it around
+# 98 bottles of beer on the wall
+
+# Then the second verse is the same, except that it starts with 98 bottles and
+# ends with 97. The song continues—for a very long time—until there are 0
+# bottles of beer.
+# Write a function called bottle_verse that takes a number as a
+# parameter and displays the verse that starts with the given number of
+# bottles.
