@@ -111,4 +111,23 @@ print()
 # bottles of beer.
 # Write a function called bottle_verse that takes a number as a
 # parameter and displays the verse that starts with the given number of
-# bottles.
+# # bottles.
+# def print_verse(n):
+#     print(str(n) + "bottles of beer on the wall" + 
+#           "\n" + str(n) + "bottles of beer" + 
+#           "\n" + "Take one down, pass it around" +
+#           "\n" + str(n-1) + "bottles of beer on the wall")
+def bottle_verse(n):
+    for i in range(n, 0, -1):  # Loop from n down to 1
+        print(f"{i} bottle{'s' if i > 1 else ''} of beer on the wall")
+        print(f"{i} bottle{'s' if i > 1 else ''} of beer")
+        print("Take one down, pass it around")
+        print(f"{i-1} bottle{'s' if i-1 != 1 else ''} of beer on the wall\n")
+
+    print("No more bottles of beer on the wall!")  # Final line when reaching 0
+
+# Example usage:
+bottle_verse(2)  # Starts from 5 and counts down to 0
+
+def example(n):
+    print()
