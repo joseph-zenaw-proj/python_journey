@@ -129,5 +129,3 @@ def bottle_verse(n):
 # Example usage:
 bottle_verse(2)  # Starts from 5 and counts down to 0
 
-def example(n):
-    print()
