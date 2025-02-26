@@ -8,3 +8,7 @@ def is_even(n):
 
 print(is_even(4))
 
+def is_odd(n):
+    return (n+1) % 2 == 0
+
+print(is_odd(1))
