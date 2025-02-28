@@ -17,3 +17,8 @@ def reverse_string(s):
     return s[::-1]
 
 print(reverse_string("ABC"))
+
+def add(n, m):
+    return n + m
+
+print(add(3, 6))
