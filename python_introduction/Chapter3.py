@@ -112,11 +112,7 @@ print()
 # Write a function called bottle_verse that takes a number as a
 # parameter and displays the verse that starts with the given number of
 # # bottles.
-# def print_verse(n):
-#     print(str(n) + "bottles of beer on the wall" + 
-#           "\n" + str(n) + "bottles of beer" + 
-#           "\n" + "Take one down, pass it around" +
-#           "\n" + str(n-1) + "bottles of beer on the wall")
+
 def bottle_verse(n):
     for i in range(n, 0, -1):  # Loop from n down to 1
         print(f"{i} bottle{'s' if i > 1 else ''} of beer on the wall")
@@ -124,8 +120,49 @@ def bottle_verse(n):
         print("Take one down, pass it around")
         print(f"{i-1} bottle{'s' if i-1 != 1 else ''} of beer on the wall\n")
 
-    print("No more bottles of beer on the wall!")  # Final line when reaching 0
+    print("No more bottles of beer on the wall!")  
 
-# Example usage:
-bottle_verse(2)  # Starts from 5 and counts down to 0
+bottle_verse(4)  
 
+
+# Write a function called countdown_song that takes a number and prints a countdown song like this:
+
+# 5 days left until the event
+# 4 days left until the event
+# 3 days left until the event
+# 2 days left until the event
+# 1 day left until the event
+# No more days left!
+print()
+def countdown_song(n):
+    for i in range(n , 0 , -1):
+        print(f"{i} day{'s' if i > 1 else ''} left until the event")
+
+    print("No more days left!")
+
+countdown_song(3)
+print()
+#Write a function reverse_count(n) that prints numbers from n down to 1, then prints "Blastoff!"
+def reverse_count(n):
+    for i in range(n, 0 , -1):
+        print(i)
+    
+    print("Blastoff!")
+
+reverse_count(5)
+print()
+
+#Write a function print_table(n) that prints the multiplication table for n from 1 to 10
+def print_table(n):
+    for i in range(1 , 11):
+        print(f"{n} x {i} = {n * i}")
+
+print_table(4)
+print()
+
+#Write a function word_pyramid(word, height) that prints a pyramid using the given word
+def word_pyramid(word, height):
+    for i in range(1, height + 1):
+        print(word * i)
+
+word_pyramid("D", 6)

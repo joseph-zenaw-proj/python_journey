@@ -55,3 +55,8 @@ def is_prime(n):
     return True
 
 print(is_prime(2))
+
+def multiply(n, m):
+    return n * m
+
+print(multiply(2, 3))
