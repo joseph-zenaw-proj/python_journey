@@ -60,3 +60,8 @@ def multiply(n, m):
     return n * m
 
 print(multiply(2, 3))
+
+def divide(n, m):
+    return n / m
+
+print(int(divide(4, 2)))
