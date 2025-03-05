@@ -65,3 +65,8 @@ def divide(n, m):
     return n / m
 
 print(int(divide(4, 2)))
+
+def divmult(n, m, o):
+    return n / m * o
+
+print(divmult(1, 2, 3))
