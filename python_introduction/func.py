@@ -70,3 +70,9 @@ def divmult(n, m, o):
     return n / m * o
 
 print(divmult(1, 2, 3))
+
+
+def multdiv(n, m, o):
+    return n * m / o
+
+print(divmult(1, 2, 3))
