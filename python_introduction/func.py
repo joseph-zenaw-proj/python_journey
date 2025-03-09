@@ -82,7 +82,4 @@ def addsub(n, m, o):
 
 print(addsub(8, 9, 10))
 
-def power(n, m):
-    return n ** m
 
-print(power(3, 2))
