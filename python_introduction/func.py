@@ -83,3 +83,7 @@ def addsub(n, m, o):
 print(addsub(8, 9, 10))
 
 
+def subdiv(n, m, o):
+    return n - m / o
+
+print(subdiv(5, 7, 9))
