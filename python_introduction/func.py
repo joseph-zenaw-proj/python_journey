@@ -87,3 +87,8 @@ def subdiv(n, m, o):
     return n - m / o
 
 print(subdiv(5, 7, 9))
+
+def trueorfalse(n, m):
+    return n == m
+
+print(trueorfalse(8, 8))
