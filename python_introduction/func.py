@@ -99,3 +99,8 @@ def factorial(n):
     return n * factorial(n-1)
 
 print(factorial(4))    
+
+def greet(name):
+    print("Hello, " + name)
+
+greet("Joseph")
