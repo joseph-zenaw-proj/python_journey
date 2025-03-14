@@ -104,3 +104,10 @@ def greet(name):
     print("Hello, " + name)
 
 greet("Joseph")
+
+def is_palindrome(a):
+    if a == a[::-1]:
+        return ("The string is a palindrome")
+    return ("The string is not a palindrome")
+
+print(is_palindrome("aabba"))
