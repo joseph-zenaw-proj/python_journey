@@ -111,3 +111,10 @@ def is_palindrome(a):
     return ("The string is not a palindrome")
 
 print(is_palindrome("aabba"))
+
+def check_equal(a, b):
+    if a == b[::-1]:
+        return ("They are reverse of each other")
+    return ("They are not reverse of each other")
+
+print(check_equal("foul", "luof"))
