@@ -118,3 +118,11 @@ def check_equal(a, b):
     return ("They are not reverse of each other")
 
 print(check_equal("foul", "luof"))
+
+def apply_twice(func, x):
+    return func(func(x))
+
+def add_one(n):
+    return n + 1
+
+print(apply_twice(add_one, 5))
